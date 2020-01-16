@@ -492,7 +492,7 @@ public class jFrmPrincipal extends dbConnect {
                                     br.close();
                                     fr.close();
                                     
-                                    EnviaSIGOS(file);
+                                    EnviaSIGOS(file, "/SIGOS/");
                                     
                             } catch (IOException ex) {
                                 System.out.println(ex.getMessage());
