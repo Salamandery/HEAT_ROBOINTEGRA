@@ -597,7 +597,7 @@ public class jFrmPrincipal extends dbConnect {
         FTPsend(file, folder, "URL", "LOGIN", "PASS");
     }
     
-    private static void EnviaSIGOS(File file) {
+    private static void EnviaSIGOS(File file, String folder) {
         FTPsend(file, folder, "URL", "LOGIN", "PASS");
     }
     
